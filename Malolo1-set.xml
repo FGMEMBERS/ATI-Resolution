@@ -15,19 +15,19 @@ dynamics model, and external 3D model.
   <aircraft-version>0.0</aircraft-version>
 
   <startup>
-    <splash-texture>Aircraft/Malolo1/Malolo1-splash.rgb</splash-texture>
+    <splash-texture>Aircraft/ATI-Resolution/Malolo1-splash.rgb</splash-texture>
   </startup>
 
-  <flight-model>jsb</flight-model>
-  <aero>Malolo1</aero>
-  <fuel-fraction>0.8</fuel-fraction>
+  <flight-model>yasim</flight-model>
+  <aero>resolution-yasim</aero>
+  <fuel-fraction>0.5</fuel-fraction>
   <!--
   <systems>
    <autopilot>
-    <path>Aircraft/Malolo1/Systems/110-autopilot.xml</path>
+    <path>Aircraft/ATI-Resolution/Systems/110-autopilot.xml</path>
    </autopilot>
    <electrical>
-    <path>Aircraft/Malolo1/Systems/electrical.xml</path>
+    <path>Aircraft/ATI-Resolution/Systems/electrical.xml</path>
    </electrical>
   </systems> -->
 
@@ -40,7 +40,7 @@ dynamics model, and external 3D model.
   </panel>
 
   <model>
-   <path archive="y">Aircraft/Malolo1/Models/Malolo1.xml</path>
+   <path archive="y">Aircraft/ATI-Resolution/Models/Malolo1.xml</path>
   </model>
   
   <view>
