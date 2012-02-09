@@ -18,8 +18,8 @@ dynamics model, and external 3D model.
     <splash-texture>Aircraft/ATI-Resolution/Malolo1-splash.rgb</splash-texture>
   </startup>
 
-  <flight-model>yasim</flight-model>
-  <aero>resolution-yasim</aero>
+  <flight-model>jsb</flight-model>
+  <aero>Malolo1</aero>
   <fuel-fraction>0.5</fuel-fraction>
   <!--
   <systems>
