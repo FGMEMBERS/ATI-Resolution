@@ -4,14 +4,14 @@
 
   <airplane mass="12">
 
-  <approach speed="25" aoa="5" fuel="0.5" > 
+  <approach speed="25" aoa="7.5" fuel="0.5" > 
     <control-setting axis="/controls/engines/engine[0]/throttle" value="0.0"/>
     <control-setting axis="/controls/gear/gear-down" value="1"/>
   </approach>
 
   <cruise speed="45" alt="1000" fuel="0.5"> 
-    <control-setting axis="/controls/engines/engine[0]/throttle" value="0.8"/>
-    <control-setting axis="/controls/gear/gear-down" value="0"/>
+    <control-setting axis="/controls/engines/engine[0]/throttle" value="0.75"/>
+    <control-setting axis="/controls/gear/gear-down" value="1"/>
   </cruise>
 
   <cockpit x="0.0" y="0.0" z="0.0"/>
