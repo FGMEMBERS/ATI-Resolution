@@ -79,21 +79,21 @@ var update_avior_actuators = func( dt ) {
 
     var ap_enable = props.globals.getNode("/avior/settings/ap-enable");
     if ( ap_enable.getBoolValue() ) {
-	aileron = getprop("/avior/act/aileron");
+	aileron = getprop("/aura-uas/act/aileron");
 	if ( aileron != nil ) {
 	    setprop( "/controls/flight/aileron", aileron );
 	}
-	elevator = getprop("/avior/act/elevator");
+	elevator = getprop("/aura-uas/act/elevator");
 	if ( elevator != nil ) {
 	    setprop( "/controls/flight/elevator", elevator );
 	}
-	throttle = getprop("/avior/act/throttle");
+	throttle = getprop("/aura-uas/act/throttle");
 	if ( throttle != nil ) {
 	    setprop( "/controls/engines/engine[0]/throttle", throttle );
 	}
-	rudder = getprop("/avior/act/rudder");
-	if ( rudder != nil ) {
-	    setprop( "/controls/flight/rudder", getprop("/avior/act/rudder") );
+	rudder = getprop("/aura-uas/act/rudder");
+	if ( rudder != nil and !debug.isnan(rudder) ) {
+	    setprop( "/controls/flight/rudder", rudder );
 	}
     }
 
