@@ -14,6 +14,15 @@ dynamics model, and external 3D model.
   <author>Curtis Olson, Copyright ATI, Inc.</author>
   <aircraft-version>3.0</aircraft-version>
 
+  <tags>
+    <tag>delta-wing</tag>
+    <tag>tricycle</tag>
+    <tag>fixed-gear</tag>
+    <tag>castering</tag>
+    <tag>reconnaissance</tag>
+    <tag>uav</tag>
+  </tags>
+
   <startup>
     <splash-texture>Aircraft/ATI-Resolution/Resolution3-splash.png</splash-texture>
   </startup>

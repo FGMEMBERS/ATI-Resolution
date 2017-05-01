@@ -15,6 +15,18 @@ dynamics model, and external 3D model.
   <aircraft-version>0.0</aircraft-version>
   <variant-of>Resolution3</variant-of>
 
+  <tags>
+    <tag>delta-wing</tag>
+    <tag>tricycle</tag>
+    <tag>fixed-gear</tag>
+    <tag>castering</tag>
+    <tag>single-engine</tag>
+    <tag>electric</tag>
+    <tag>fixed-pitch</tag>
+    <tag>reconnaissance</tag>
+    <tag>uav</tag>
+  </tags>
+
   <startup>
     <splash-texture>Aircraft/ATI-Resolution/Malolo1-splash.rgb</splash-texture>
   </startup>
